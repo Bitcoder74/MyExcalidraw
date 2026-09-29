@@ -1,0 +1,12 @@
+{
+  "name": "npm-ts-workspaces-example",
+  "private": true,
+  "scripts": {},
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^25.0.10"
+  }
+}
